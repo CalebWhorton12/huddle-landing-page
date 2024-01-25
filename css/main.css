@@ -1,0 +1,90 @@
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+
+.attribution a {
+  color: #e0e0e0; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background: #674baf url(../images/bg-desktop.svg) no-repeat center center/cover;
+  font-family: "Open Sans", "Poppins", sans-serif;
+  overflow: hidden; }
+
+#hero .logo {
+  margin-top: 50px;
+  margin-left: 60px; }
+
+#hero .hero-content {
+  min-height: 85vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0px 50px; }
+  #hero .hero-content img {
+    width: 800px;
+    margin: 0px 0px 0px 60px; }
+  #hero .hero-content .text-content h1 {
+    font-size: 50px;
+    margin-bottom: 30px; }
+  #hero .hero-content .text-content p {
+    font-size: 25px;
+    margin-bottom: 20px; }
+  #hero .hero-content .text-content .btn {
+    padding: 20px 70px;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px #000;
+    transition: all 0.3s;
+    color: #fff;
+    color: #674baf; }
+    #hero .hero-content .text-content .btn:hover {
+      color: #fff;
+      background-color: #e882e8;
+      box-shadow: 2px 2px 5px #000; }
+
+#hero .social-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px; }
+  #hero .social-icons .icons i {
+    color: #fff;
+    padding: 5px; }
+    #hero .social-icons .icons i:hover {
+      color: #e882e8; }
+
+footer {
+  color: #fff; }
+
+@media (max-width: 968px) {
+  #hero .logo {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 200px; }
+  #hero .hero-content {
+    min-height: 80vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 70px; }
+    #hero .hero-content img {
+      width: 300px;
+      margin: 0; }
+    #hero .hero-content .text-content h1 {
+      font-size: 25px;
+      text-align: center; }
+    #hero .hero-content .text-content p {
+      font-size: 16px;
+      text-align: center; }
+    #hero .hero-content .text-content .btn {
+      width: 100%;
+      text-align: center;
+      padding: 10px 70px; }
+  #hero .social-icons {
+    justify-content: center; } }
